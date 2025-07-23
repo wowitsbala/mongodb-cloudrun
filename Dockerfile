@@ -5,7 +5,7 @@ EXPOSE 27017
 
 # Set environment variables for MongoDB
 ENV MONGO_INITDB_ROOT_USERNAME=admin
-ENV MONGO_INITDB_ROOT_PASSWORD=your_secure_password
+ENV MONGO_INITDB_ROOT_PASSWORD=admin
 
 # Command to run MongoDB
 CMD ["mongod", "--bind_ip_all"]
